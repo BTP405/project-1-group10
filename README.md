@@ -3,11 +3,15 @@
 ### Please use the following template to add a ReadMe for your repo.
 
 ## 1. Project Title and Description
-    - Title: Python Budgeting App
+    - Title: Python Budget App
     This app is a simple yet effective budget tracking app that allows you to see your income and expenses throught the months
 ## 2. Installation
     - Dependencies: Python, PostgreSQL
-    - Installation Instructions: Provide step-by-step instructions on how to install and set up your project.
+    - Installation Instructions: P
+    - Clone this Reopsitory
+    -Install Dependencies 'pip install psycopg2'
+    -pip install 'bcrypt'
+    -DATABASE CONFIG '''HOST + '''
 ## 3. Usage
     - Examples: Include examples or code snippets to demonstrate how to use your project.
     - Configuration: Explain any configuration options or settings users might need to know about.
@@ -17,7 +21,7 @@
     - Guidelines: Explain how others can contribute to your project, including information on submitting bug reports, feature requests, or code contributions.
     - Code Style: If applicable, provide guidelines or references to your code style.
 ## 6. Credits
-    - Authors: List the authors or contributors of the project.
+    - Authors: Aazain Rafiq, Shaswot Dhakal
     - Acknowledgments: Mention any individuals or resources that helped inspire or support your project.
 ## 7. License
     - License Information: Specify the license under which your project is distributed.
