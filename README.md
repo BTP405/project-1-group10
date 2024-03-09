@@ -22,7 +22,7 @@
     - For the first time you need to sign up and you will be assigned a random username and will be asked to enter a password
     - userid and password are important and you need to remember them as there is no recovery option yet
     - once you signin you can start with entering budget on monthly basis
-''' onths = [
+    ''' months = [
         "January",
         "February",
         "March",
