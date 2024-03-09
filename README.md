@@ -51,7 +51,24 @@
  ```
      - This script shows a list of months. You pick a month and then choose to add income, add expenses, view your budget, or go back to the month 
        list. It keeps running until you stop it. 
-        
+```
+ if choice == "1":
+            income = float(input("Enter income amount: "))
+            insert_budget(user_id, income, 0, "Income", month)
+            print("Income added successfully!")
+        elif choice == "2":
+            expenses = float(input("Enter expenses amount: "))
+            print("Choose a category:")
+            print("1. Gas")
+            print("2. Rent")
+            print("3. Food")
+            print("4. Water")
+            print("5. Electricity")
+            print("6. Add a custom category")
+            category_choice = input("Enter the category number: ")
+            categories = ["Gas", "Rent", "Food", "Water", "Electricity"]
+```
+        - This script let you choose a category for your expenses, we currently have limited category "Gas", "Rent", "Food", "Water", "Electricity".
 ## 4. Features
     * User signup and login
     * Secure password hashing (using libraries like bcrypt)
