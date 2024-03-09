@@ -57,13 +57,14 @@
     * Secure password hashing (using libraries like bcrypt)
     * Adding income and expenses
     * Categorizing expenses
+    * Tracking income and expenses
     * Viewing budget details (total income, expenses)
 ## 5. Contributing
-    - Guidelines: Explain how others can contribute to your project, including information on submitting bug reports, feature requests, or code contributions.
+    - Guidelines: We need a password recovery feature and add UI, other than that this is a simple app that's easy to maintain
     - Code Style: If applicable, provide guidelines or references to your code style.
 ## 6. Credits
     - Authors: Aazain Rafiq, Shaswot Dhakal
-    - Acknowledgments: Mention any individuals or resources that helped inspire or support your project.
+    - Acknowledgments: Stack Overflow
 ## 7. License
     - License Information: Specify the license under which your project is distributed.
 ## 8. Additional Sections (Optional)
