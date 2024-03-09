@@ -77,7 +77,7 @@
     * Tracking income and expenses
     * Viewing budget details (total income, expenses)
 ## 5. Contributing
-    - Guidelines: We need a password recovery feature and add UI, other than that this is a simple app that's easy to maintain
+    - Guidelines: This is a simple app that's easy to maintain
     - Code Style: If applicable, provide guidelines or references to your code style.
 ## 6. Credits
     - Authors: Aazain Rafiq, Shaswot Dhakal
