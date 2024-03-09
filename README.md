@@ -7,7 +7,7 @@
     This app is a simple yet effective budget tracking app that allows you to see your income and expenses throught the months.
 ## 2. Installation
     - Dependencies: Python, PostgreSQL
-     ```bash git clone [https://github.com/your-username/BudgetApp.git](https://github.com/your-username/BudgetApp.git)`
+      git clone [https://github.com/your-username/BudgetApp.git](https://github.com/your-username/BudgetApp.git)`
 ## 3. Usage
     - Examples: Include examples or code snippets to demonstrate how to use your project.
     - Configuration: Explain any configuration options or settings users might need to know about.
