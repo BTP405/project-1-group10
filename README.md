@@ -68,7 +68,7 @@
             category_choice = input("Enter the category number: ")
             categories = ["Gas", "Rent", "Food", "Water", "Electricity"]
 ```
-        - This script let you choose a category for your expenses, we currently have limited category "Gas", "Rent", "Food", "Water", "Electricity".
+        - This script let you choose a category for your expenses, we currently have limited category "Gas", "Rent", "Food", "Water", "Electricity". so as a solution for that you can add a custom category
 ## 4. Features
     * User signup and login
     * Secure password hashing (using libraries like bcrypt)
