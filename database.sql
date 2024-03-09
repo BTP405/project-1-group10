@@ -15,5 +15,6 @@ CREATE TABLE budget
     income NUMERIC DEFAULT 0,
     expenses NUMERIC DEFAULT 0,
     category TEXT,
+    month INT,
     FOREIGN KEY (user_id) REFERENCES users(id)
 );
