@@ -7,10 +7,44 @@
     This app is a simple yet effective budget tracking app that allows you to see your income and expenses throught the months.
 ## 2. Installation
     - Dependencies: Python, PostgreSQL
-      git clone [https://github.com/your-username/BudgetApp.git](https://github.com/your-username/BudgetApp.git)`
+      clone this git [https://github.com/your-username/BudgetApp.git](https://github.com/your-username/BudgetApp.git)`
+      edit database.py file
+      HOST = "localhost"
+      PORT = 5432
+      DATABASE = "your_database_name"
+      USER = "your_username"
+      PASSWORD = "your_password"
+
+      since we are using local host you will also need 2 tables that are given inside database.sql
+
 ## 3. Usage
-    - Examples: Include examples or code snippets to demonstrate how to use your project.
-    - Configuration: Explain any configuration options or settings users might need to know about.
+    - You will get two options, Login and Signup. 
+    - For the first time you need to sign up and you will be assigned a random username and will be asked to enter a password
+    - userid and password are important and you need to remember them as there is no recovery option yet
+    - once you signin you can start with entering budget on monthly basis
+    ''' onths = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+    ]
+        for i, month in enumerate(months, start=1):
+            print(f"{i}. {month}")
+        month = int(input("Enter the number of the month (1-12): "))
+        print("\n1. Add Monthly Income")
+        print("2. Add Expenses")
+        print("3. View Budget")
+        print("4. Back to Main Menu") '
+        
+    - 
 ## 4. Features
     * User signup and login
     * Secure password hashing (using libraries like bcrypt)
