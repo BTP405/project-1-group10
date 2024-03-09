@@ -22,28 +22,29 @@
     - For the first time you need to sign up and you will be assigned a random username and will be asked to enter a password
     - userid and password are important and you need to remember them as there is no recovery option yet
     - once you signin you can start with entering budget on monthly basis
-    ```
-    months = [
-        "January",
-        "February",
-        "March",
-        "April",
-        "May",
-        "June",
-        "July",
-        "August",
-        "September",
-        "October",
-        "November",
-        "December",
+
+ ```
+ months = [
+ "January",
+ "February",
+ "March",
+ "April",
+ "May",
+ "June",
+ "July",
+ "August",
+ "September",
+ "October",
+ "November",
+ "December",
     ]
-        for i, month in enumerate(months, start=1):
-            print(f"{i}. {month}")
-        month = int(input("Enter the number of the month (1-12): "))
-        print("\n1. Add Monthly Income")
-        print("2. Add Expenses")
-        print("3. View Budget")
-        print("4. Back to Main Menu") 
+ for i, month in enumerate(months, start=1):
+ print(f"{i}. {month}")
+ month = int(input("Enter the number of the month (1-12): "))
+ print("\n1. Add Monthly Income")
+ print("2. Add Expenses")
+ print("3. View Budget")
+ print("4. Back to Main Menu") 
      ```
         
 ## 4. Features
