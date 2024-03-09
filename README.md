@@ -22,7 +22,7 @@
     - For the first time you need to sign up and you will be assigned a random username and will be asked to enter a password
     - userid and password are important and you need to remember them as there is no recovery option yet
     - once you signin you can start with entering budget on monthly basis
-    ''' onths = [
+''' onths = [
         "January",
         "February",
         "March",
@@ -44,7 +44,6 @@
         print("3. View Budget")
         print("4. Back to Main Menu") '
         
-    - 
 ## 4. Features
     * User signup and login
     * Secure password hashing (using libraries like bcrypt)
