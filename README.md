@@ -22,7 +22,8 @@
     - For the first time you need to sign up and you will be assigned a random username and will be asked to enter a password
     - userid and password are important and you need to remember them as there is no recovery option yet
     - once you signin you can start with entering budget on monthly basis
-    ''' months = [
+    ```
+    months = [
         "January",
         "February",
         "March",
@@ -42,7 +43,8 @@
         print("\n1. Add Monthly Income")
         print("2. Add Expenses")
         print("3. View Budget")
-        print("4. Back to Main Menu") '
+        print("4. Back to Main Menu") 
+     ```
         
 ## 4. Features
     * User signup and login
