@@ -24,27 +24,30 @@
     - once you signin you can start with entering budget on monthly basis
 
  ```
- months = [
- "January",
- "February",
- "March",
- "April",
- "May",
- "June",
- "July",
- "August",
- "September",
- "October",
- "November",
- "December",
+ while True:
+        months = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
     ]
- for i, month in enumerate(months, start=1):
- print(f"{i}. {month}")
- month = int(input("Enter the number of the month (1-12): "))
- print("\n1. Add Monthly Income")
- print("2. Add Expenses")
- print("3. View Budget")
- print("4. Back to Main Menu") 
+        for i, month in enumerate(months, start=1):
+            print(f"{i}. {month}")
+        month = int(input("Enter the number of the month (1-12): "))
+        print("\n1. Add Monthly Income")
+        print("2. Add Expenses")
+        print("3. View Budget")
+        print("4. Back to Main Menu")
+
+        choice = input("Enter your choice: ")
      ```
         
 ## 4. Features
