@@ -48,7 +48,9 @@
         print("4. Back to Main Menu")
 
         choice = input("Enter your choice: ")
-     ```
+ ```
+     - This script shows a list of months. You pick a month and then choose to add income, add expenses, view your budget, or go back to the month 
+       list. It keeps running until you stop it. 
         
 ## 4. Features
     * User signup and login
