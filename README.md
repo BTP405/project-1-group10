@@ -7,16 +7,16 @@
     This app is a simple yet effective budget tracking app that allows you to see your income and expenses throught the months
 ## 2. Installation
     - Dependencies: Python, PostgreSQL
-    - Installation Instructions: P
-    - Clone this Reopsitory
-    -Install Dependencies 'pip install psycopg2'
-    -pip install 'bcrypt'
-    -DATABASE CONFIG '''HOST + '''
+     ```bash git clone [https://github.com/your-username/BudgetApp.git](https://github.com/your-username/BudgetApp.git)
 ## 3. Usage
     - Examples: Include examples or code snippets to demonstrate how to use your project.
     - Configuration: Explain any configuration options or settings users might need to know about.
 ## 4. Features
-    - List of Features: Outline the main features and functionalities of your project.
+    * User signup and login
+    * Secure password hashing (using libraries like bcrypt)
+    * Adding income and expenses
+    * Categorizing expenses
+    * Viewing budget details (total income, expenses)
 ## 5. Contributing
     - Guidelines: Explain how others can contribute to your project, including information on submitting bug reports, feature requests, or code contributions.
     - Code Style: If applicable, provide guidelines or references to your code style.
