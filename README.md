@@ -3,10 +3,10 @@
 ### Please use the following template to add a ReadMe for your repo.
 
 ## 1. Project Title and Description
-    - Title: Provide a clear and concise title for your project.
-    - Description: Give a brief overview of what your project does and its purpose.
+    - Title: Python Budgeting App
+    This app is a simple yet effective budget tracking app that allows you to see your income and expenses throught the months
 ## 2. Installation
-    - Dependencies: List any dependencies or prerequisites required to use your project.
+    - Dependencies: Python, PostgreSQL
     - Installation Instructions: Provide step-by-step instructions on how to install and set up your project.
 ## 3. Usage
     - Examples: Include examples or code snippets to demonstrate how to use your project.
