@@ -1,23 +1,87 @@
+[![Review Assignment Due Date](https://classroom.github.com/assets/deadline-readme-button-24ddc0f5d75046c5622901739e7c5dd533143b0c8e959d652212380cedb1ea36.svg)](https://classroom.github.com/a/545oUMxH)
 
 ### Please use the following template to add a ReadMe for your repo.
 
 ## 1. Project Title and Description
-    - Title: Provide a clear and concise title for your project.
-    - Description: Give a brief overview of what your project does and its purpose.
+    - Title: Python Budget App
+    This app is a simple yet effective budget tracking app that allows you to see your income and expenses throught the months.
 ## 2. Installation
-    - Dependencies: List any dependencies or prerequisites required to use your project.
-    - Installation Instructions: Provide step-by-step instructions on how to install and set up your project.
+    - Dependencies: Python, PostgreSQL
+      clone this git [https://github.com/your-username/BudgetApp.git](https://github.com/your-username/BudgetApp.git)`
+      edit database.py file
+      HOST = "localhost"
+      PORT = 5432
+      DATABASE = "your_database_name"
+      USER = "your_username"
+      PASSWORD = "your_password"
+
+      since we are using local host you will also need 2 tables that are given inside database.sql
+
 ## 3. Usage
-    - Examples: Include examples or code snippets to demonstrate how to use your project.
-    - Configuration: Explain any configuration options or settings users might need to know about.
+    - You will get two options, Login and Signup. 
+    - For the first time you need to sign up and you will be assigned a random username and will be asked to enter a password
+    - userid and password are important and you need to remember them as there is no recovery option yet
+    - once you signin you can start with entering budget on monthly basis
+
+ ```
+ while True:
+        months = [
+        "January",
+        "February",
+        "March",
+        "April",
+        "May",
+        "June",
+        "July",
+        "August",
+        "September",
+        "October",
+        "November",
+        "December",
+    ]
+        for i, month in enumerate(months, start=1):
+            print(f"{i}. {month}")
+        month = int(input("Enter the number of the month (1-12): "))
+        print("\n1. Add Monthly Income")
+        print("2. Add Expenses")
+        print("3. View Budget")
+        print("4. Back to Main Menu")
+
+        choice = input("Enter your choice: ")
+ ```
+     - This script shows a list of months. You pick a month and then choose to add income, add expenses, view your budget, or go back to the month 
+       list. It keeps running until you stop it. 
+```
+ if choice == "1":
+            income = float(input("Enter income amount: "))
+            insert_budget(user_id, income, 0, "Income", month)
+            print("Income added successfully!")
+        elif choice == "2":
+            expenses = float(input("Enter expenses amount: "))
+            print("Choose a category:")
+            print("1. Gas")
+            print("2. Rent")
+            print("3. Food")
+            print("4. Water")
+            print("5. Electricity")
+            print("6. Add a custom category")
+            category_choice = input("Enter the category number: ")
+            categories = ["Gas", "Rent", "Food", "Water", "Electricity"]
+```
+        - This script let you choose a category for your expenses, we currently have limited category "Gas", "Rent", "Food", "Water", "Electricity". so as a solution for that you can add a custom category
 ## 4. Features
-    - List of Features: Outline the main features and functionalities of your project.
+    * User signup and login
+    * Secure password hashing (using libraries like bcrypt)
+    * Adding income and expenses
+    * Categorizing expenses
+    * Tracking income and expenses
+    * Viewing budget details (total income, expenses)
 ## 5. Contributing
-    - Guidelines: Explain how others can contribute to your project, including information on submitting bug reports, feature requests, or code contributions.
+    - Guidelines: This is a simple app that's easy to maintain
     - Code Style: If applicable, provide guidelines or references to your code style.
 ## 6. Credits
-    - Authors: List the authors or contributors of the project.
-    - Acknowledgments: Mention any individuals or resources that helped inspire or support your project.
+    - Authors: Aazain Rafiq, Shaswot Dhakal
+    - Acknowledgments: Stack Overflow
 ## 7. License
     - License Information: Specify the license under which your project is distributed.
 ## 8. Additional Sections (Optional)
